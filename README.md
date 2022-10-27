@@ -1,4 +1,4 @@
-# name of non-profit
+# Partners in Equestrian Therapy
 
 {One sentence description of the project}
 
@@ -17,12 +17,12 @@
 
 ### Team
 
-The {non-profit name} team consists of {#} Cal Poly students. Over the course of about 9 months, we worked as a team to deploy this web application. The team members are listed below:
+The Partners in Equestrian Therapy team consists of {#} Cal Poly students. Over the course of about 9 months, we worked as a team to deploy this web application. The team members are listed below:
 
-- [First Last](https://www.linkedin.com/) - Project Manager
+- [Sharon Pagidipati](https://www.linkedin.com/in/sharon-pagidipati/) - Project Manager
 - [First Last](https://www.linkedin.com/) - Designer
-- [First Last](https://www.linkedin.com/) - Tech Lead
-- [First Last](https://www.linkedin.com/) - Tech Lead
+- [Bora Joo](https://www.linkedin.com/in/borajoo) - Tech Lead
+- [Sam Wathen](https://www.linkedin.com/in/sam-wathen127/) - Tech Lead
 - [First Last](https://www.linkedin.com/) - Software Developer
 
 ## Getting Started And Contributing
@@ -30,5 +30,3 @@ The {non-profit name} team consists of {#} Cal Poly students. Over the course of
 Visit [getting-started.md](docs/template-repo/getting-started.md) on info for how to set up this repo.
 
 Visit [contributing.md](docs/template-repo/contributing.md) on info for how to contribute to this repo.
-
-Thank you to The Land Conservancy team for this wonderful readme template!!
