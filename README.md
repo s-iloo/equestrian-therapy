@@ -26,6 +26,7 @@ The Partners in Equestrian Therapy team consists of {#} Cal Poly students. Over 
 - [Jake Eichenseer](https://www.linkedin.com/in/jake-eichenseer/) - Designer
 - [Bora Joo](https://www.linkedin.com/in/borajoo) - Tech Lead
 - [Sam Wathen](https://www.linkedin.com/in/sam-wathen127/) - Tech Lead
+- [Hayley Chang](https://www.linkedin.com/in/hayley-chang/) - Software Developer
 - [First Last](https://www.linkedin.com/) - Software Developer
 
 ## Getting Started And Contributing
