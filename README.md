@@ -29,6 +29,7 @@ The Partners in Equestrian Therapy team consists of {#} Cal Poly students. Over 
 - [Hayley Chang](https://www.linkedin.com/in/hayley-chang/) - Software Developer
 - [Parshana Sekhon](https://www.linkedin.com/in/parshana-sekhon-45b813222/) - Software Developer
 - [Ian Loo](https://www.linkedin.com/in/ian-loo-b35078197/) - Software Developer
+- [Annes Huynh](https://www.linkedin.com/in/annes-huynh-584a96190/) - Software Developer
 
 ## Getting Started And Contributing
 
