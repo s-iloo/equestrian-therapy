@@ -32,6 +32,7 @@ The Partners in Equestrian Therapy team consists of {#} Cal Poly students. Over 
 - [Annes Huynh](https://www.linkedin.com/in/annes-huynh-584a96190/) - Software Developer
 - [Ryan Agdassi](https://www.linkedin.com/in/ryan-agdassi/) - Software Developer
 - [Sophia Hsuan](https://www.linkedin.com/in/sophiahsuan) - Software Developer
+- [Dominic Davidson](https://www.linkedin.com/in/dominic-davidson-027b9519b/) - Software Developer
 
 ## Getting Started And Contributing
 
