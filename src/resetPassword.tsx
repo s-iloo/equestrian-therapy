@@ -213,7 +213,7 @@ function ResetPassword(this: any) {
   // changes windows to different pages
   const handleClick = () => {
     if (input.confirmPassword === input.password && input.password.length > 5) {
-      navigate("/success");
+      navigate("/success", { state: { id: "resetPassword" } });
     }
   };
   const handleBackClick = () => {
