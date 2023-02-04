@@ -1,6 +1,5 @@
 import React from "react";
-import "./success.css";
-import { useParams, useNavigate } from "react-router-dom";
+import { useParams /* useNavigate */ } from "react-router-dom";
 import styled from "styled-components";
 import logo from "./images/logo1.svg";
 
@@ -35,6 +34,8 @@ const Box = styled.section`
     margin-left: auto;
     margin-right: auto;
     margin-top: 30%;
+    padding: auto;
+    width: fit-content;
   }
 `;
 
@@ -42,6 +43,12 @@ const LargeText = styled.text`
   color: #011338;
   font-size: 35px;
   margin: 2rem 0.5rem;
+  @media (max-width: 500px) {
+    margin: 2rem 0rem;
+    padding: auto;
+    width: fit-content;
+    align-self: center;
+  }
 `;
 
 const Logo = styled.img`
@@ -53,18 +60,21 @@ const Logo = styled.img`
 
 const Button = styled.button`
   background: #1b4c5a;
+  border: solid 0.5px #6c6b6b;
   color: white;
-  height: 3rem;
+  height: 2.8rem;
   margin-top: 2rem;
   font-weight: bold;
+  width: 15rem;
+  align-self: center;
 `;
 
 function Success() {
-  const navigate = useNavigate();
+  // const navigate = useNavigate();
   const { action } = useParams();
 
   const handleClick = () => {
-    navigate("/login");
+    // navigate("/login");
   };
 
   return (
