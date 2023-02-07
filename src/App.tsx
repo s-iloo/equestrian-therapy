@@ -1,22 +1,29 @@
 import React from "react";
-import { Route, Routes } from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import "./App.css";
-// import Home from "./home";
-import ResetPassword from "./resetPassword";
+import { Amplify } from "aws-amplify";
+import awsconfig from "./aws-exports";
+import Temp from "./components/Temp";
 import Success from "./success";
+import ResetPassword from "./resetPassword";
+
+Amplify.configure(awsconfig);
+// import Home from "./home";
 
 function App() {
   return (
-    <>
-      <ResetPassword />
-      <main>
-        <Routes>
-          {/* <Route path="/" element={<Home />} /> */}
-          <Route path="/success" element={<Success />} />
-          <Route path="/resetPassword" element={<ResetPassword />} />
-        </Routes>
-      </main>
-    </>
+    <BrowserRouter>
+      <Routes>
+        {/* /, /login, /create-account, /forgot-password, /enter-code, /reset-password, /success */}
+        <Route path="/" element={<Temp />} />
+        <Route path="/login" element={<Temp />} />
+        <Route path="/create-account" element={<Temp />} />
+        <Route path="/forgot-password" element={<Temp />} />
+        <Route path="/enter-code" element={<Temp />} />
+        <Route path="/reset-password" element={<ResetPassword />} />
+        <Route path="/success/:id" element={<Success />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 

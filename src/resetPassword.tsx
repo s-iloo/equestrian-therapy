@@ -189,9 +189,9 @@ function ResetPassword(this: any) {
           } else if (
             input.password &&
             value === input.password &&
-            input.password.length < 5
+            input.password.length < 8
           ) {
-            stateObj.confirmPassword = "must be more than 5 characters";
+            stateObj.confirmPassword = "must be more than 8 characters";
           }
 
           break;
@@ -213,7 +213,7 @@ function ResetPassword(this: any) {
   // changes windows to different pages
   const handleClick = () => {
     if (input.confirmPassword === input.password && input.password.length > 5) {
-      navigate("/success", { state: { id: "resetPassword" } });
+      navigate("/success/reset");
     }
   };
   const handleBackClick = () => {
