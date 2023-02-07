@@ -1,13 +1,12 @@
 import React from "react";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import "./App.css";
 import { Amplify } from "aws-amplify";
 import awsconfig from "./aws-exports";
+import Temp from "./components/Temp";
+import Success from "./success";
 
 Amplify.configure(awsconfig);
-
-import Temp from "./components/Temp";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Success from "./success";
 
 function App() {
   return (
